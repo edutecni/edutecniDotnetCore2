@@ -10,7 +10,7 @@ namespace edutecniDotnetCore2.Controllers
     {
         public string Index()
         {
-            return "Esse é o método Action Padrão...";
+            return "Esse é o método Action Padrão Alterado...";
         }
 
         public IActionResult Detalhe()
