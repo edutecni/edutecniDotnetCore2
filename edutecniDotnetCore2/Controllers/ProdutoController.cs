@@ -10,12 +10,25 @@ namespace edutecniDotnetCore2.Controllers
     {
         public string Index()
         {
-            return "Esse é o método Action Padrão Alterado...";
+            var https = HttpContext.Request.IsHttps;
+            var caminho = HttpContext.Request.Path;
+            var status = HttpContext.Response.StatusCode;
+            var conexao = HttpContext.Connection.ToString();
+
+            return https + "\r\n" + caminho + "\r\n" + status +"\r\n" + conexao;
+            //return "Esse é o método Action Padrão Alterado Novamente...";
         }
 
         public IActionResult Detalhe()
         {
-            return View();
+            var pessoa  = new {ID = 1, Nome = "Edutecni"};
+            return new ObjectResult(pessoa);
+            
+            //return File("images/banner1.svg", "image/svg+xml");
+            //return Content("teste.pdf", "application/pdf");
+            //return Content("Uma string simples");
+            //return RedirectToAction("Index", "Home", new {pagina=1, ordem="nome"});
+            //return View();
         }
     }
 }
