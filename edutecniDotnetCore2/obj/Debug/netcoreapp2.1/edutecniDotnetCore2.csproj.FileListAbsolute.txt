@@ -43,7 +43,6 @@ D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\bin\Debug\netcoreapp
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\bin\Debug\netcoreapp2.1\edutecniDotnetCore2.pdb
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\bin\Debug\netcoreapp2.1\edutecniDotnetCore2.Views.dll
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\bin\Debug\netcoreapp2.1\edutecniDotnetCore2.Views.pdb
-D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\edutecniDotnetCore2.csprojAssemblyReference.cache
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\edutecniDotnetCore2.AssemblyInfoInputs.cache
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\edutecniDotnetCore2.AssemblyInfo.cs
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\edutecniDotnetCore2.csproj.CoreCompileInputs.cache
