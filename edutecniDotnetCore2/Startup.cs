@@ -54,9 +54,17 @@ namespace edutecniDotnetCore2
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                // Rota Customizada (Não é a maneira ideal)
+                // Pela expressão regular só aceita ano de 2013 a 2021 e data deve ter 2 digitos ex: 01 ou 12
+                routes.MapRoute("PorDataLancamento",
+                    "produto/lancamentos/{ano}/{mes}",
+                    new { Controller = "Produto", Action = "DataLancamento"},
+                    new { ano = @"2013|2021", mes = @"\d{2}" });
+
+                // Rotas customizadas direto nos controllers (Ideal ser for necessário usar rotas customizadas)
+                //routes.MapRoute(
+                //    name: "default",
+                //    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
