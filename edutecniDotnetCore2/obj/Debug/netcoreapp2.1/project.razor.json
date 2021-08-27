@@ -1823,6 +1823,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Projetos\\Angular\\edutecniDotnetCore2\\edutecniDotnetCore2\\Views\\Teste\\Index.cshtml",
+      "TargetPath": "Views\\Teste\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projetos\\Angular\\edutecniDotnetCore2\\edutecniDotnetCore2\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"

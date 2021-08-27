@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Index";
+
+    // Passando objetos por ViewData se faz necessário definir o tipo "as Endereco"
+    var endereco = ViewData["Endereco"] as Endereco;
+
+    // Com ViewBag não é necessário explicitar o tipo
+    //var enderecoViewBag = ViewBag["EnderecoViewBag"];
+}
+
+<h1>ViewData</h1>
+<h2>@ViewData["Saudacao"] Mundo!!!</h2>
+<h2>@ViewData["DataInicio"]</h2>
+
+<hr>
+
+@endereco.Nome <br />
+@endereco.Rua <br />
+@endereco.Cidade, @endereco.Estado
+
+<hr>
+
+<h1>ViewBag</h1>
+
+<h2>Hora atual: @ViewBag.HoraAtual</h2>
+<h2>Path: @ViewBag.Caminhho</h2>
+
+<hr>
+
+@ViewBag.EnderecoViewBag.Nome <br />
+@ViewBag.EnderecoViewBag.Rua <br />
+@ViewBag.EnderecoViewBag.Cidade, @ViewBag.EnderecoViewBag.Estado
