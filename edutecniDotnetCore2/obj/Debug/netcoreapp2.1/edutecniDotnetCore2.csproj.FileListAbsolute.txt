@@ -108,3 +108,4 @@ E:\Projetos\DotNet\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2
 E:\Projetos\DotNet\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\edutecniDotnetCore2.csproj.CopyComplete
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\edutecniDotnetCore2.csprojAssemblyReference.cache
 D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\Razor\Views\Teste\Index.cshtml.g.cs
+D:\Projetos\Angular\edutecniDotnetCore2\edutecniDotnetCore2\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Detalhe.cshtml.g.cs

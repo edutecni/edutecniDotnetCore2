@@ -14,7 +14,8 @@
         "outputPath": "D:\\Projetos\\Angular\\edutecniDotnetCore2\\edutecniDotnetCore2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Matrix\\AppData\\Roaming\\NuGet\\NuGet.Config",
